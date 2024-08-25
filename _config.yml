@@ -1,16 +1,16 @@
 # Basic Information 
-title: Xingli Fang
-position: Ph.D. Student in Comp. Sci.
-affiliation: NC State University
-affiliation_link: https://www.csc.ncsu.edu/
-affiliation_logo: ./assets/img/ncsu-logo-small.svg
-email: xfang23 (at) ncsu.edu
+title: Yiming Liu
+position: Undergraduate Student
+affiliation: Institute for Interdisciplinary Information Sciences, Tsinghua University
+affiliation_link: https://iiis.tsinghua.edu.cn/
+affiliation_logo: ./assets/img/tsinghua-logo-small.jpg
+email: liuym23@mails.tsinghua.edu.cn
 # email2: 
 
 # Search Engine Optimization (SEO)
-keywords: xingli fang, fangxingli, x fang
+keywords: yiming liu, liuyiming, leo, leonardo
 # canonical: 
-description: Yaoyao Liu is a Ph.D. student at NC State University.
+description: Yiming Liu is an undergraduate student at Tsinghua University.
 
 # The option is used to enable the template.
 enable_hopkins_logo: true
@@ -20,30 +20,24 @@ enable_last_update: false
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=GJtATkAAAAAJ
+google_scholar: https://scholar.google.com/citations?user=tOEF7V8AAAAJ
 # cv_link: https://pages.jh.edu/yliu538/files/Yaoyao_Liu_Curriculum_Vitae.pdf
-# github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/xingli-fang-7817b7231/
-# twitter: https://twitter.com/YaoyaoLiu1/
+github_link: https://github.com/leo1oel
+# linkedin: https://www.linkedin.com/in/xingli-fang-7817b7231/
+twitter: https://x.com/leoliuym
 
 # Images 
 avatar: ./assets/img/avatar.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/ai.png
+favicon_dark: ./assets/img/ai.png
 
 # Educations
-bachelor_logo: ./assets/img/neu-logo.svg
-master_logo: ./assets/img/syracuse-logo.svg
-phd_logo: ./assets/img/ncsu-logo.svg
+undergraduate_logo: ./assets/img/tsinghua-logo.png
 
 # Footnotes
-#footnote: "2024 Xingli Fang"
-#footnote_link: https://github.com/yaoyao-liu/minimal-light
+footnote: "2024 Yiming Liu"
+# footnote_link: https://github.com/leo1oel/leo1oel.github.io
 
-# Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: PaNXfGbGqWkJPFgftLllF8IUcF-VRFKYKBMZ-BEXaa8
 
 # The following files will be removed from the generated website.
 exclude:

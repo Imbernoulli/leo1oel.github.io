@@ -28,40 +28,15 @@ Education
 </style>
 
 <div class="image-text-container">
-    <img src="{{ site.phd_logo }}" alt="Image">
+    <img src="{{ site.undergraduate_logo }}" alt="Image">
     <div class="text">
-        <h2>North Carolina State University</h2>
+        <h2>Tsinghua University</h2>
         <h3><span style="color: #333333;">
-        Department of Computer Science
+        Institute for Interdisciplinary Information Sciences (IIIS)
         </span></h3>
         <p>
-        Ph.D. in Computer Science,  [2023 Spring-Ongoing]
+        Undergraduate in Computer Science,  [2023 Fall - Ongoing]
         </p>
     </div>
 </div>
-<div class="image-text-container">
-    <img src="{{ site.master_logo }}" alt="Image">
-    <div class="text">
-        <h2>Syracuse University</h2>
-        <h3><span style="color: #333333;">
-        Department of Electrical Eng. and Computer Sci.
-        </span></h3>
-        <p>
-        M.S. in Computer Engineering,  [2021 Fall - 2022 Winter]
-        </p>
-    </div>
-</div>
-<div class="image-text-container">
-    <img src="{{ site.bachelor_logo }}" alt="Image">
-    <div class="text">
-        <h2>Northeastern University</h2>
-        <h3><span style="color: #333333;">
-        Software College
-        </span></h3>
-        <p>
-        B.Eng. in Software Engineering,  [2017 Fall - 2021 Summer]
-        </p>
-    </div>
-</div>
-
 

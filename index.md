@@ -6,9 +6,11 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am Xingli Fang (方星力 in Chinese), a Ph.D. student at North Carolina State University advised by [Dr. Jung-Eun Kim](https://jungeunkim.wordpress.ncsu.edu/). Prior to that, I got my Master Degree (Computer Engineering) from Syracuse University and Bachelor Degree (Software Engineering) from Northeastern University (China).
+Hi,
 
-My current research lies at **trustworthy machine learning** -- with a special focus on building privacy-safe and efficient ML. My research interests include **privacy**, **efficient AI**, **semi-supervised learning**, and **generative models**.
+I am Yiming Liu (刘一铭 in Chinese), an undergraduate student at Tsinghua University.
+
+My current research lies at **Multimodal AI** -- with a special focus on vision understanding. My research interests include **Multimodal AI**, **NLP**, **Generative Models**, and **AI Alignment**.
 
 <!-- 
 <strong style="color:#e74d3c; font-weight:600">
@@ -22,14 +24,14 @@ My current research lies at **trustworthy machine learning** -- with a special f
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/teaching.md %}
+<!-- {% include_relative _includes/teaching.md %} -->
 
 <!--
 {% include_relative _includes/talks.md %}
 -->
 
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/services.md %} -->
 
-{% include_relative _includes/award.md %}
+<!-- {% include_relative _includes/award.md %} -->
 
 {% include_relative _includes/contact.md %}

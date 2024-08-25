@@ -1,64 +1,72 @@
 conference:
-  - title: Representation Magnitude has a Liability to Privacy Vulnerability
-    authors: <strong>Xingli Fang</strong>, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: "AIES 24"
-    conference: "7th AAAI Conference on AI, Ethics, and Society, 2024."
-    pdf: https://arxiv.org/abs/2407.16164
-    code: https://github.com/JEKimLab/AIES2024_SRCM
+  - title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition
+    authors: Bosi Wen, Pei Ke, Xiaotao Gu, Lindong Wu, Hao Huang, Jinfeng Zhou, Wenchuang Li, Binxin Hu, Wendy Gao, Jiaxin Xu, <strong>Yiming Liu</strong>, Jie Tang, Hongning Wang, Minlie Huang
+    conference_short: "NeurIPS 24"
+    conference: "NeurIPS 2024, the Thirty-eighth Annual Conference on Neural Information Processing Systems"
+    pdf: https://arxiv.org/abs/2407.03978
+    code: https://github.com/thu-coai/ComplexBench
     #page: https://openreview.net/forum?id=unlWrunFjg&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dauai.org%2FUAI%2F2024%2FConference%2FAuthors%23your-submissions)
     #bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:dVQ9V6GoCSgJ:scholar.google.com/&output=citation&scisdr=ClEobhnKEJrn2_cKeGM:AFWwaeYAAAAAZl4MYGMaJzUTWSodyPmXHJ-zAPo&scisig=AFWwaeYAAAAAZl4MYB5B_-SR-yN7_GIXPZGmhRc&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://arxiv.org/html/2407.16164v1/x3.png
+    image: https://arxiv.org/html/2407.03978v2/x1.png
 
-  - title: Center-Based Relaxed Learning Against Membership Inference Attacks
-    authors: <strong>Xingli Fang</strong>, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: "UAI 24"
-    conference: "Proceedings of the 40th Conference on Uncertainty in Artificial Intelligence, 2024."
-    pdf: https://arxiv.org/abs/2404.17674
-    code: https://github.com/JEKimLab/UAI24_CRL
-    page: https://openreview.net/forum?id=unlWrunFjg&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dauai.org%2FUAI%2F2024%2FConference%2FAuthors%23your-submissions)
-    #bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:dVQ9V6GoCSgJ:scholar.google.com/&output=citation&scisdr=ClEobhnKEJrn2_cKeGM:AFWwaeYAAAAAZl4MYGMaJzUTWSodyPmXHJ-zAPo&scisig=AFWwaeYAAAAAZl4MYB5B_-SR-yN7_GIXPZGmhRc&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://arxiv.org/html/2404.17674v1/x1.png
+project:
+  - title: Course Sharing Platform
+    introduction: 
+      1. Designed and implemented a PostgreSQL‑based course sharing platform using Scala for backend and React for frontend
+      2. Utilized Stable Diffusion 2 and Llama 2 API to enhance users experiences
+    code: https://github.com/knightnemo/WEB_PROJ
+    image: ./assets/img/platform.png
+    language: Scala, HTML, CSS, JavaScript
+  # - title: Center-Based Relaxed Learning Against Membership Inference Attacks
+  #   authors: <strong>Xingli Fang</strong>, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+  #   conference_short: "UAI 24"
+  #   conference: "Proceedings of the 40th Conference on Uncertainty in Artificial Intelligence, 2024."
+  #   pdf: https://arxiv.org/abs/2404.17674
+  #   code: https://github.com/JEKimLab/UAI24_CRL
+  #   page: https://openreview.net/forum?id=unlWrunFjg&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dauai.org%2FUAI%2F2024%2FConference%2FAuthors%23your-submissions)
+  #   #bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:dVQ9V6GoCSgJ:scholar.google.com/&output=citation&scisdr=ClEobhnKEJrn2_cKeGM:AFWwaeYAAAAAZl4MYGMaJzUTWSodyPmXHJ-zAPo&scisig=AFWwaeYAAAAAZl4MYB5B_-SR-yN7_GIXPZGmhRc&scisf=4&ct=citation&cd=-1&hl=en
+  #   image: https://arxiv.org/html/2404.17674v1/x1.png
 
-workshop:
-  - title: Cooperative Learning for Cost-Adaptive Inference
-    authors: <strong>Xingli Fang</strong>, Richard Bradford, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: WANT@NeurIPS
-    conference: "Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization, 2023."
-    pdf: https://arxiv.org/abs/2312.08532
-    # code: https://github.com/xinzheli1217/learning-to-self-trai
-    page: https://openreview.net/forum?id=2KYHntOYKw
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FOEljVIU87sJ:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmlXUI:AFWwaeYAAAAAZhWjRULvYeTsjyz_RxU8W6jkWlE&scisig=AFWwaeYAAAAAZhWjRRw0ky1MQHLfKX0DUPbqDw4&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
-    image: https://arxiv.org/html/2312.08532v2/x6.png
+# workshop:
+#   - title: Cooperative Learning for Cost-Adaptive Inference
+#     authors: <strong>Xingli Fang</strong>, Richard Bradford, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+#     conference_short: WANT@NeurIPS
+#     conference: "Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization, 2023."
+#     pdf: https://arxiv.org/abs/2312.08532
+#     # code: https://github.com/xinzheli1217/learning-to-self-trai
+#     page: https://openreview.net/forum?id=2KYHntOYKw
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FOEljVIU87sJ:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmlXUI:AFWwaeYAAAAAZhWjRULvYeTsjyz_RxU8W6jkWlE&scisig=AFWwaeYAAAAAZhWjRRw0ky1MQHLfKX0DUPbqDw4&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://arxiv.org/html/2312.08532v2/x6.png
 
-journal:
-  - title: Multi-Step Real-Time Prediction of Hard-Rock TBM Penetration Rate Combining Temporal Convolutional Network and Squeeze-And-Excitation Block
-    authors: Long Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, <strong>Xingli Fang</strong>, Wenbiao Qi
-    # conference_short:
-    conference: Scientific Reports, 2024.
-    pdf: https://www.nature.com/articles/s41598-024-65351-3
-    # code:
-    page: https://www.nature.com/articles/s41598-024-65351-3
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
-    image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-024-65351-3/MediaObjects/41598_2024_65351_Fig7_HTML.png?as=webp
-    # notes:
-  - title: Realtime Prediction of Hard Rock TBM Advance Rate using Temporal Convolutional Network (TCN) With Tunnel Construction Big Data
-    authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Yongchen Wang, Long Li, <strong>Xingli Fang</strong>, Junze Wang
-    # conference_short:
-    conference: Frontiers of Structural and Civil Engineering, 2022.
-    pdf: https://link.springer.com/content/pdf/10.1007/s11709-022-0823-3.pdf
-    # code:
-    page: https://link.springer.com/article/10.1007/s11709-022-0823-3
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
-    image: https://www.researchgate.net/profile/Zaobao-Liu-liuzaobao/publication/361573354/figure/fig3/AS:11431281090690668@1666140386147/Comparison-of-absolute-errors-of-all-models.jpg
-    # notes:
+# journal:
+#   - title: Multi-Step Real-Time Prediction of Hard-Rock TBM Penetration Rate Combining Temporal Convolutional Network and Squeeze-And-Excitation Block
+#     authors: Long Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, <strong>Xingli Fang</strong>, Wenbiao Qi
+#     # conference_short:
+#     conference: Scientific Reports, 2024.
+#     pdf: https://www.nature.com/articles/s41598-024-65351-3
+#     # code:
+#     page: https://www.nature.com/articles/s41598-024-65351-3
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-024-65351-3/MediaObjects/41598_2024_65351_Fig7_HTML.png?as=webp
+#     # notes:
+#   - title: Realtime Prediction of Hard Rock TBM Advance Rate using Temporal Convolutional Network (TCN) With Tunnel Construction Big Data
+#     authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Yongchen Wang, Long Li, <strong>Xingli Fang</strong>, Junze Wang
+#     # conference_short:
+#     conference: Frontiers of Structural and Civil Engineering, 2022.
+#     pdf: https://link.springer.com/content/pdf/10.1007/s11709-022-0823-3.pdf
+#     # code:
+#     page: https://link.springer.com/article/10.1007/s11709-022-0823-3
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://www.researchgate.net/profile/Zaobao-Liu-liuzaobao/publication/361573354/figure/fig3/AS:11431281090690668@1666140386147/Comparison-of-absolute-errors-of-all-models.jpg
+#     # notes:
 
-  - title: Hard-rock Tunnel Lithology Prediction with TBM Construction Big Data using A Global-Attention-Mechanism-Based LSTM Network
-    authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Long Li, <strong>Xingli Fang</strong>, Wenbiao Qi, Jimei Shen, Hongyuan Zhou, Yulong Zhang
-    # conference_short:
-    conference: Automation in Construction, 2021.
-    pdf: https://www.sciencedirect.com/science/article/pii/S0926580521000984
-    # code:
-    page: https://www.sciencedirect.com/science/article/pii/S0926580521000984
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:iObnrS_Z6C8J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmZch4:AFWwaeYAAAAAZhWfah4HrV3U0DjvUTF3tzdIWuc&scisig=AFWwaeYAAAAAZhWfatA0ue74SDm6fDLgI4b8LkE&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://ars.els-cdn.com/content/image/1-s2.0-S0926580521000984-gr6.jpg
-    # notes:
+#   - title: Hard-rock Tunnel Lithology Prediction with TBM Construction Big Data using A Global-Attention-Mechanism-Based LSTM Network
+#     authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Long Li, <strong>Xingli Fang</strong>, Wenbiao Qi, Jimei Shen, Hongyuan Zhou, Yulong Zhang
+#     # conference_short:
+#     conference: Automation in Construction, 2021.
+#     pdf: https://www.sciencedirect.com/science/article/pii/S0926580521000984
+#     # code:
+#     page: https://www.sciencedirect.com/science/article/pii/S0926580521000984
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:iObnrS_Z6C8J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmZch4:AFWwaeYAAAAAZhWfah4HrV3U0DjvUTF3tzdIWuc&scisig=AFWwaeYAAAAAZhWfatA0ue74SDm6fDLgI4b8LkE&scisf=4&ct=citation&cd=-1&hl=en
+#     image: https://ars.els-cdn.com/content/image/1-s2.0-S0926580521000984-gr6.jpg
+#     # notes:
