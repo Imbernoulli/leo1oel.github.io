@@ -5,9 +5,17 @@ conference:
     conference: "NeurIPS 2024, the Thirty-eighth Annual Conference on Neural Information Processing Systems"
     pdf: https://arxiv.org/abs/2407.03978
     code: https://github.com/thu-coai/ComplexBench
-    #page: https://openreview.net/forum?id=unlWrunFjg&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dauai.org%2FUAI%2F2024%2FConference%2FAuthors%23your-submissions)
-    #bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:dVQ9V6GoCSgJ:scholar.google.com/&output=citation&scisdr=ClEobhnKEJrn2_cKeGM:AFWwaeYAAAAAZl4MYGMaJzUTWSodyPmXHJ-zAPo&scisig=AFWwaeYAAAAAZl4MYB5B_-SR-yN7_GIXPZGmhRc&scisf=4&ct=citation&cd=-1&hl=en
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN
     image: https://arxiv.org/html/2407.03978v2/x1.png
+  
+  - title: LogicGame： Benchmarking Rule-Based Reasoning Abilities of Large Language Models
+    authors: Jiayi Gui<sup>*</sup>, <strong>Yiming Liu</strong><sup>*</sup>, Jiale Cheng<sup>*</sup>, Xiaotao Gu<sup>*</sup>, Xiao Liu, Hongning Wang, Yuxiao Dong, Jie Tang, Minlie Huang
+    conference_short: "Under Review"
+    conference: "AAAI 25, the 39th Annual AAAI Conference on Artificial Intelligence"
+    pdf: https://arxiv.org/abs/2408.15778
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN 
+    image: https://arxiv.org/html/2408.15778v1/x2.png
+
 
 project:
   - title: Course Sharing Platform
