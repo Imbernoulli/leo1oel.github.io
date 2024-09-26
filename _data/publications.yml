@@ -1,7 +1,7 @@
 conference:
   - title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition
     authors: Bosi Wen, Pei Ke, Xiaotao Gu, Lindong Wu, Hao Huang, Jinfeng Zhou, Wenchuang Li, Binxin Hu, Wendy Gao, Jiaxin Xu, <strong>Yiming Liu</strong>, Jie Tang, Hongning Wang, Minlie Huang
-    conference_short: "Under Review"
+    conference_short: "NeurIPS 24"
     conference: "NeurIPS 2024, the Thirty-eighth Annual Conference on Neural Information Processing Systems"
     pdf: https://arxiv.org/abs/2407.03978
     code: https://github.com/thu-coai/ComplexBench
