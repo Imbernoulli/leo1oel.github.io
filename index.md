@@ -10,7 +10,7 @@ Hi,
 
 I am Yiming Liu (刘一铭 in Chinese), an undergraduate student at Tsinghua University.
 
-My current research lies at **Multimodal AI** -- with a special focus on vision understanding. My research interests include **Multimodal AI**, **NLP**, **Generative Models**, and **AI Alignment**.
+My current research lies at **Multimodal AI** -- with a special focus on vision understanding. My research interests include **Multimodal AI**, **Mechanistic Interpretability**, **NLP**, and **AI Safety and Alignment**.
 
 <!-- 
 <strong style="color:#e74d3c; font-weight:600">

@@ -13,6 +13,7 @@ conference:
     conference_short: "Under Review"
     conference: "AAAI 25, the 39th Annual AAAI Conference on Artificial Intelligence"
     pdf: https://arxiv.org/abs/2408.15778
+    code: https://github.com/hypatiaalegra/logicgame-data
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN 
     image: https://arxiv.org/html/2408.15778v1/x2.png
     
