@@ -1,7 +1,7 @@
 conference:
   - title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition
     authors: Bosi Wen, Pei Ke, Xiaotao Gu, Lindong Wu, Hao Huang, Jinfeng Zhou, Wenchuang Li, Binxin Hu, Wendy Gao, Jiaxin Xu, <strong>Yiming Liu</strong>, Jie Tang, Hongning Wang, Minlie Huang
-    conference_short: "NeurIPS 24"
+    conference_short: "NeurIPS 2024"
     conference: "NeurIPS 2024, the Thirty-eighth Annual Conference on Neural Information Processing Systems"
     pdf: https://arxiv.org/abs/2407.03978
     code: https://github.com/thu-coai/ComplexBench
@@ -18,7 +18,7 @@ conference:
     
   - title: Converting Open-ended Questions to Multiple-choice Questions Simplifies Biomedical Vision-Language Model Evaluation
     authors: Yuchang Su, Yuhui Zhang, <strong>Yiming Liu</strong>
-    conference_short: "Under Review"
+    conference_short: "ML4H 2024"
     conference: "ML4H, Machine Learning for Health 2024"
     image: assets/img/medical.png
 
