@@ -16,7 +16,7 @@ conference:
     code: https://github.com/hypatiaalegra/logicgame-data
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN 
     image: https://arxiv.org/html/2408.15778v1/x2.png
-    
+ 
   - title: Converting Open-ended Questions to Multiple-choice Questions Simplifies Biomedical Vision-Language Model Evaluation
     authors: Yuchang Su, Yuhui Zhang, <strong>Yiming Liu</strong>
     conference_short: "ML4H 2024"
