@@ -31,6 +31,10 @@ project:
     code: https://github.com/knightnemo/WEB_PROJ
     image: ./assets/img/platform.png
     language: Scala, HTML, CSS, JavaScript
+  - title: NLP Research Project
+    introduction: Unveiling the Transformation of Features： From Base Models to Fine-Tuned Models
+    pdf: https://drive.google.com/file/d/1mXIDShyD1mR2AOzMroitdpjwaf6ta_f5/view?usp=sharing
+    image: ./assets/img/nlp.png
   # - title: Center-Based Relaxed Learning Against Membership Inference Attacks
   #   authors: <strong>Xingli Fang</strong>, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
   #   conference_short: "UAI 24"
