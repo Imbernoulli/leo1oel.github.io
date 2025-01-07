@@ -27,6 +27,7 @@
         z-index: 999;
     }
 </style>
+
 <h1 id="publications"></h1>
 
 <h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=tOEF7V8AAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp>
@@ -88,13 +89,14 @@ Project
 </h2><br>
 
 {% for link in site.data.publications.project %}
+
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=50%">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.code }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       {% if link.introduction %}
       <div class="introduction">{{ link.introduction }}</div>
@@ -102,7 +104,10 @@ Project
       {% if link.language %}
       <div class="language"><strong>Language:</strong> {{ link.language }}</div>
       {% endif %}
-    <div class="links">
+      <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
@@ -165,5 +170,3 @@ Journal
 
 </ol>
 </div>
-
-

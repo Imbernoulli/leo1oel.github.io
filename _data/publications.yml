@@ -8,7 +8,7 @@ conference:
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN
     image: https://arxiv.org/html/2407.03978v2/x1.png
   
-  - title: LogicGame： Benchmarking Rule-Based Reasoning Abilities of Large Language Models
+  - title: LogicGame":" Benchmarking Rule-Based Reasoning Abilities of Large Language Models
     authors: Jiayi Gui<sup>*</sup>, <strong>Yiming Liu</strong><sup>*</sup>, Jiale Cheng<sup>*</sup>, Xiaotao Gu<sup>*</sup>, Xiao Liu, Hongning Wang, Yuxiao Dong, Jie Tang, Minlie Huang
     conference_short: "Under Review"
     conference: "AAAI 25, the 39th Annual AAAI Conference on Artificial Intelligence"
@@ -41,12 +41,13 @@ project:
 
   - title: NLP Research Project
     introduction: Unveiling the Transformation of Features, From Base Models to Fine-Tuned Models
-    page: https://drive.google.com/file/d/1mXIDShyD1mR2AOzMroitdpjwaf6ta_f5/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1mXIDShyD1mR2AOzMroitdpjwaf6ta_f5/view?usp=sharing
     image: ./assets/img/nlp.png
 
   - title: A Survey on K-means Clustering Algorithms： Theoretical Analysis and Performance Comparison
     introduction: Elucidated the computational complexity and convergence properties of K-means clustering algorithms and its variants
-    page: https://github.com/leo1oel/clustering
+    page: https://leo1oel.github.io/clustering/
+    pdf: https://drive.google.com/file/d/1GyALs65e0mRMzA1vk5jKJC68aJfrXvDG/view?usp=sharing
     image: ./assets/img/cluster.png
 
 # workshop:
