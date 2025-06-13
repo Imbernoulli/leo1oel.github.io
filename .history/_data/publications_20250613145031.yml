@@ -1,0 +1,110 @@
+conference:
+  - title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition
+    authors: Bosi Wen, Pei Ke, Xiaotao Gu, Lindong Wu, Hao Huang, Jinfeng Zhou, Wenchuang Li, Binxin Hu, Wendy Gao, Jiaxin Xu, <strong>Yiming Liu</strong>, Jie Tang, Hongning Wang, Minlie Huang
+    conference_short: "NeurIPS 2024"
+    conference: "NeurIPS 2024, the Thirty-eighth Annual Conference on Neural Information Processing Systems"
+    pdf: https://arxiv.org/abs/2407.03978
+    code: https://github.com/thu-coai/ComplexBench
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: https://arxiv.org/html/2407.03978v2/x1.png
+    selected: true
+
+  - title: "LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models"
+    authors: Jiayi Gui<sup>*</sup>, <strong>Yiming Liu</strong><sup>*</sup>, Jiale Cheng<sup>*</sup>, Xiaotao Gu<sup>*</sup>, Xiao Liu, Hongning Wang, Yuxiao Dong, Jie Tang, Minlie Huang
+    conference_short: "ACL 2025"
+    conference: "ACL 2025 Findings, the 63rd Annual Meeting of the Association for Computational Linguistics"
+    pdf: https://arxiv.org/abs/2408.15778
+    code: https://github.com/hypatiaalegra/logicgame-data
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:oPacluG2VmAJ:scholar.google.com/&output=citation&scisdr=ClHX1QxaEPPD22LMBfU:AFWwaeYAAAAAZtfKHfWDp3050lRbhYYjnErURbI&scisig=AFWwaeYAAAAAZtfKHQZ3dLrbWV6eh2G9PexaSIo&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: https://arxiv.org/html/2408.15778v1/x2.png
+    selected: true
+
+  - title: Converting Open-ended Questions to Multiple-choice Questions Simplifies Biomedical Vision-Language Model Evaluation
+    authors: Yuchang Su, Yuhui Zhang, <strong>Yiming Liu</strong>
+    conference_short: "ML4H 2024"
+    conference: "ML4H, Machine Learning for Health 2024"
+    image: assets/img/medical.png
+
+  - title: Automated Generation of Challenging Multiple-Choice Questions for Vision Language Model Evaluation
+    authors: Yuhui Zhang<sup>*</sup>, Yuchang Su<sup>*</sup>, <strong>Yiming Liu</strong>, Xiaohan Wang, James Burgess, Elaine Sui, Chenyu Wang, Josiah Aklilu, Alejandro Lozano, Anjiang Wei, Ludwig Schmidt, Serena Yeung-Levy
+    conference_short: "CVPR 2025"
+    conference: "CVPR 2025, the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025"
+    image: https://arxiv.org/html/2501.03225v1/x1.png
+    pdf: https://arxiv.org/abs/2501.03225
+    code: https://github.com/yuhui-zh15/AutoConverter
+    page: https://yuhui-zh15.github.io/AutoConverter-Website/
+    selected: true
+
+  - title: "NegVQA: Can Vision Language Models Understand Negation?"
+    authors: Yuhui Zhang, Yuchang Su, <strong>Yiming Liu</strong>, Serena Yeung-Levy
+    conference_short: "ACL 2025"
+    conference: "ACL 2025 Findings, the 63rd Annual Meeting of the Association for Computational Linguistics"
+    image: https://arxiv.org/html/2505.22946v1/x1.png
+    pdf: https://arxiv.org/abs/2501.03225
+    code: https://github.com/yuhui-zh15/AutoConverter
+    page: https://yuhui-zh15.github.io/AutoConverter-Website/
+    selected: true
+
+project:
+  - title: Course Sharing Platform
+    introduction:
+      1. Designed and implemented a PostgreSQL‑based course sharing platform using Scala for backend and React for frontend
+      2. Utilized Stable Diffusion 2 and Llama 2 API to enhance users experiences
+    code: https://github.com/knightnemo/WEB_PROJ
+    image: ./assets/img/platform.png
+    language: Scala, HTML, CSS, JavaScript
+
+  - title: NLP Research Project
+    introduction: Unveiling the Transformation of Features, From Base Models to Fine-Tuned Models
+    pdf: https://drive.google.com/file/d/1mXIDShyD1mR2AOzMroitdpjwaf6ta_f5/view?usp=sharing
+    image: ./assets/img/nlp.png
+
+  - title: A Survey on K-means Clustering Algorithms： Theoretical Analysis and Performance Comparison
+    introduction: Elucidated the computational complexity and convergence properties of K-means clustering algorithms and its variants
+    page: https://leo1oel.github.io/clustering/
+    pdf: https://drive.google.com/file/d/1GyALs65e0mRMzA1vk5jKJC68aJfrXvDG/view?usp=sharing
+    image: ./assets/img/cluster.png
+
+# workshop:
+#   - title: Cooperative Learning for Cost-Adaptive Inference
+#     authors: <strong>Xingli Fang</strong>, Richard Bradford, Jung-Eun Kim<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+#     conference_short: WANT@NeurIPS
+#     conference: "Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization, 2023."
+#     pdf: https://arxiv.org/abs/2312.08532
+#     # code: https://github.com/xinzheli1217/learning-to-self-trai
+#     page: https://openreview.net/forum?id=2KYHntOYKw
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FOEljVIU87sJ:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmlXUI:AFWwaeYAAAAAZhWjRULvYeTsjyz_RxU8W6jkWlE&scisig=AFWwaeYAAAAAZhWjRRw0ky1MQHLfKX0DUPbqDw4&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://arxiv.org/html/2312.08532v2/x6.png
+
+# journal:
+#   - title: Multi-Step Real-Time Prediction of Hard-Rock TBM Penetration Rate Combining Temporal Convolutional Network and Squeeze-And-Excitation Block
+#     authors: Long Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, <strong>Xingli Fang</strong>, Wenbiao Qi
+#     # conference_short:
+#     conference: Scientific Reports, 2024.
+#     pdf: https://www.nature.com/articles/s41598-024-65351-3
+#     # code:
+#     page: https://www.nature.com/articles/s41598-024-65351-3
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-024-65351-3/MediaObjects/41598_2024_65351_Fig7_HTML.png?as=webp
+#     # notes:
+#   - title: Realtime Prediction of Hard Rock TBM Advance Rate using Temporal Convolutional Network (TCN) With Tunnel Construction Big Data
+#     authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Yongchen Wang, Long Li, <strong>Xingli Fang</strong>, Junze Wang
+#     # conference_short:
+#     conference: Frontiers of Structural and Civil Engineering, 2022.
+#     pdf: https://link.springer.com/content/pdf/10.1007/s11709-022-0823-3.pdf
+#     # code:
+#     page: https://link.springer.com/article/10.1007/s11709-022-0823-3
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:NZGEy3ujCC0J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmYZ2Q:AFWwaeYAAAAAZhWef2R_Qq9e3BVxUKdA0E6Bw1Q&scisig=AFWwaeYAAAAAZhWef-E7S0zQTgtsxg73nWn-cps&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1
+#     image: https://www.researchgate.net/profile/Zaobao-Liu-liuzaobao/publication/361573354/figure/fig3/AS:11431281090690668@1666140386147/Comparison-of-absolute-errors-of-all-models.jpg
+#     # notes:
+
+#   - title: Hard-rock Tunnel Lithology Prediction with TBM Construction Big Data using A Global-Attention-Mechanism-Based LSTM Network
+#     authors: Zaobao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>,Long Li, <strong>Xingli Fang</strong>, Wenbiao Qi, Jimei Shen, Hongyuan Zhou, Yulong Zhang
+#     # conference_short:
+#     conference: Automation in Construction, 2021.
+#     pdf: https://www.sciencedirect.com/science/article/pii/S0926580521000984
+#     # code:
+#     page: https://www.sciencedirect.com/science/article/pii/S0926580521000984
+#     # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:iObnrS_Z6C8J:scholar.google.com/&output=citation&scisdr=ClEobhnPEJTrxYmZch4:AFWwaeYAAAAAZhWfah4HrV3U0DjvUTF3tzdIWuc&scisig=AFWwaeYAAAAAZhWfatA0ue74SDm6fDLgI4b8LkE&scisf=4&ct=citation&cd=-1&hl=en
+#     image: https://ars.els-cdn.com/content/image/1-s2.0-S0926580521000984-gr6.jpg
+#     # notes:

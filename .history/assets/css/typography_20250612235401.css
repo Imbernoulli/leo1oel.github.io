@@ -1,0 +1,203 @@
+/* ==========================================================================
+   Typography Enhancements for Libertinus Sans
+   ========================================================================== */
+
+/* 字体渲染优化 */
+body {
+    font-family: "Libertinus Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-feature-settings: "liga" 1, "kern" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: oldstyle-nums;
+}
+
+/* 标题字体优化 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.2em;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+/* 段落优化 */
+p {
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+}
+
+/* 强调文本 */
+strong, b {
+    font-weight: 600;
+    color: #002D72;
+}
+
+/* 链接样式优化 */
+a {
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #39c;
+}
+
+/* 内联链接的下划线效果 */
+p a, li a {
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 45, 114, 0.2) 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: background-position 0.3s ease;
+}
+
+p a:hover, li a:hover {
+    background-position: 0% 100%;
+}
+
+/* 代码字体 */
+code, pre {
+    font-family: "Ubuntu Mono", "Menlo", "Monaco", "Consolas", monospace;
+    font-size: 0.9em;
+}
+
+/* 邮件地址样式 */
+email {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* 社交链接文字 */
+.social-icons {
+    font-size: 1.1em;
+}
+
+/* 引用文本 */
+blockquote {
+    font-style: italic;
+    font-weight: 400;
+    border-left: 3px solid #002D72;
+    padding-left: 1.5em;
+    margin: 1.5em 0;
+    color: #666;
+}
+
+/* 列表样式 */
+ul, ol {
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* 表格字体 */
+table {
+    font-size: 0.95em;
+}
+
+th {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+/* 小号文字 */
+small {
+    font-size: 0.85em;
+    color: #777;
+}
+
+/* 大号首字母 */
+.drop-cap::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin: 0.1em 0.1em 0 0;
+    font-weight: 700;
+    color: #002D72;
+}
+
+/* 文字阴影效果（可选） */
+.text-shadow {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 响应式字体大小 */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.6em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+/* 高对比度模式优化 */
+@media (prefers-contrast: high) {
+    body {
+        color: #000;
+    }
+    
+    strong, b {
+        color: #000;
+        font-weight: 700;
+    }
+}
+
+/* 减少动画偏好 */
+@media (prefers-reduced-motion: reduce) {
+    a {
+        transition: none;
+    }
+    
+    p a, li a {
+        background: none;
+        text-decoration: underline;
+    }
+} 

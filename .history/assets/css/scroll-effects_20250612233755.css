@@ -1,0 +1,237 @@
+/* ==========================================================================
+   Scroll Effects and Progress Indicators
+   ========================================================================== */
+
+/* 滚动进度条 */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #002D72, #39c, #0099cc);
+    z-index: 10000;
+    transition: width 0.1s ease;
+    box-shadow: 0 0 10px rgba(0, 45, 114, 0.5);
+}
+
+/* 滚动时导航栏变化 */
+.topnav.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* 滚动指示器 */
+.scroll-indicator {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.scroll-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(0, 45, 114, 0.3);
+    border: 2px solid rgba(0, 45, 114, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.scroll-dot.active {
+    background: #002D72;
+    border-color: #002D72;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 45, 114, 0.5);
+}
+
+.scroll-dot:hover {
+    background: #39c;
+    border-color: #39c;
+    transform: scale(1.1);
+}
+
+/* 视差滚动效果 */
+.parallax-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background: 
+        radial-gradient(circle at 25% 25%, rgba(0, 45, 114, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(57, 204, 204, 0.03) 0%, transparent 50%);
+    z-index: -2;
+    will-change: transform;
+}
+
+/* 滚动触发的元素动画类 */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-reveal-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-reveal-left.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-reveal-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-reveal-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* 滚动时头部阴影效果 */
+header.scrolled {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 分段滚动高亮 */
+section {
+    position: relative;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 4px;
+    height: 0;
+    background: linear-gradient(180deg, #002D72, #39c);
+    border-radius: 2px;
+    transition: height 0.3s ease;
+}
+
+section.in-view::before {
+    height: 100%;
+}
+
+/* 数字计数器动画 */
+.counter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #002D72;
+    display: inline-block;
+}
+
+.counter.animate {
+    animation: countUp 2s ease-out;
+}
+
+@keyframes countUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* 滚动时的微妙动画 */
+.scroll-fade {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-fade.fade-out {
+    opacity: 0.3;
+    transform: scale(0.98);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .scroll-indicator {
+        display: none;
+    }
+    
+    .scroll-progress {
+        height: 2px;
+    }
+    
+    .parallax-bg {
+        display: none;
+    }
+}
+
+/* 减少动画偏好用户的优化 */
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal,
+    .scroll-reveal-left,
+    .scroll-reveal-right,
+    .parallax-bg {
+        transform: none !important;
+        transition: opacity 0.3s ease !important;
+    }
+}
+
+/* 滚动平滑 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 自定义滚动捕捉 */
+.scroll-snap-container {
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-snap-item {
+    scroll-snap-align: start;
+}
+
+/* 滚动时的浮动效果 */
+.float-on-scroll {
+    transition: transform 0.3s ease;
+}
+
+.float-on-scroll.floating {
+    transform: translateY(-5px);
+}
+
+/* 滚动阴影效果 */
+.content-shadow {
+    position: relative;
+}
+
+.content-shadow::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 20px;
+    background: radial-gradient(ellipse, rgba(0, 0, 0, 0.1) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.content-shadow.shadow-visible::after {
+    opacity: 1;
+} 

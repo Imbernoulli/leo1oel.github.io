@@ -1,0 +1,377 @@
+/* ==========================================================================
+   Personal Homepage Animations & Enhancements
+   ========================================================================== */
+
+/* 页面加载动画 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* 打字机效果 */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #002D72; }
+}
+
+/* 浮动效果 */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+/* 脉冲效果 */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* 渐变背景动画 */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 粒子效果 */
+@keyframes particle-animation {
+    0% {
+        opacity: 1;
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) translateX(50px) rotate(180deg);
+    }
+}
+
+/* ==========================================================================
+   页面整体动画设置
+   ========================================================================== */
+
+body {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.wrapper {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+header {
+    animation: slideInLeft 0.8s ease-out 0.2s both;
+}
+
+section {
+    animation: slideInRight 0.8s ease-out 0.4s both;
+}
+
+/* ==========================================================================
+   头像增强效果
+   ========================================================================== */
+
+.image.avatar {
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.image.avatar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #002D72, #39c, #002D72);
+    background-size: 200% 200%;
+    border-radius: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: gradientShift 3s ease infinite;
+    z-index: 1;
+}
+
+.image.avatar:hover::before {
+    opacity: 0.1;
+}
+
+.image.avatar img {
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+    filter: brightness(1);
+}
+
+.image.avatar:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.image.avatar:hover {
+    animation: float 2s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   社交图标增强
+   ========================================================================== */
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+}
+
+.social-icons a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: linear-gradient(45deg, #002D72, #39c);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.social-icons a:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons a:hover {
+    color: white !important;
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 45, 114, 0.3);
+}
+
+.social-icons a:nth-child(1) { animation-delay: 0.1s; }
+.social-icons a:nth-child(2) { animation-delay: 0.2s; }
+.social-icons a:nth-child(3) { animation-delay: 0.3s; }
+.social-icons a:nth-child(4) { animation-delay: 0.4s; }
+
+/* ==========================================================================
+   打字机效果的简介
+   ========================================================================== */
+
+.typewriter {
+    overflow: hidden;
+    border-right: 2px solid #002D72;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* ==========================================================================
+   内容区域动画
+   ========================================================================== */
+
+.section-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.section-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 为不同的内容区域添加延迟 */
+.section-animate:nth-child(1) { transition-delay: 0.1s; }
+.section-animate:nth-child(2) { transition-delay: 0.2s; }
+.section-animate:nth-child(3) { transition-delay: 0.3s; }
+.section-animate:nth-child(4) { transition-delay: 0.4s; }
+
+/* ==========================================================================
+   标题增强效果
+   ========================================================================== */
+
+h1, h2, h3 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: #39c;
+    transform: translateX(5px);
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #002D72, #39c);
+    transition: width 0.3s ease;
+}
+
+h2:hover::after {
+    width: 100%;
+}
+
+/* ==========================================================================
+   返回顶部按钮增强
+   ========================================================================== */
+
+#back-to-top {
+    transition: all 0.3s ease !important;
+    border-radius: 25px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#back-to-top:hover {
+    background-color: #002D72 !important;
+    color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 45, 114, 0.3);
+}
+
+/* ==========================================================================
+   链接增强效果
+   ========================================================================== */
+
+a {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+a:not(.social-icons a):not(.image):hover {
+    transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   背景装饰效果
+   ========================================================================== */
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(0, 45, 114, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(57, 204, 204, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* ==========================================================================
+   邮件地址增强
+   ========================================================================== */
+
+email {
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: rgba(0, 45, 114, 0.05);
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+email:hover {
+    background: rgba(0, 45, 114, 0.1);
+    transform: scale(1.05);
+}
+
+/* ==========================================================================
+   响应式动画优化
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+@media print, screen and (max-width: 960px) {
+    .wrapper {
+        animation: fadeIn 0.5s ease-in;
+    }
+    
+    header, section {
+        animation: fadeInUp 0.6s ease-out;
+    }
+}
+
+/* ==========================================================================
+   Publication 增强效果
+   ========================================================================== */
+
+.pub-row {
+    transition: all 0.3s ease;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.pub-row:hover {
+    background: rgba(0, 45, 114, 0.02);
+    transform: translateX(10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ==========================================================================
+   滚动触发动画
+   ========================================================================== */
+
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.active {
+    opacity: 1;
+    transform: translateY(0);
+} 

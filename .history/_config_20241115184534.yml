@@ -1,0 +1,49 @@
+# Basic Information 
+title: Yiming Liu
+position: Undergraduate Student
+affiliation: Institute for Interdisciplinary Information Sciences, Tsinghua University
+affiliation_link: https://iiis.tsinghua.edu.cn/
+affiliation_logo: ./assets/img/tsinghua-logo-small.jpg
+email: liuym23@mails.tsinghua.edu.cn
+# email2: liuym13579@gmail.com
+
+# Search Engine Optimization (SEO)
+keywords: yiming liu, liuyiming, leo, leonardo
+# canonical: 
+description: Yiming Liu is an undergraduate student at Tsinghua University.
+
+# The option is used to enable the template.
+enable_hopkins_logo: true
+
+# The option is used to show the last update time.
+enable_last_update: false
+
+# Links
+link_type: icon #text/icon
+google_scholar: https://scholar.google.com/citations?user=tOEF7V8AAAAJ
+# cv_link: https://pages.jh.edu/yliu538/files/Yaoyao_Liu_Curriculum_Vitae.pdf
+github_link: https://github.com/leo1oel
+# linkedin: https://www.linkedin.com/in/xingli-fang-7817b7231/
+twitter: https://x.com/leoliuym
+
+# Images 
+avatar: ./assets/img/avatar.jpg
+favicon: ./assets/img/ai.png
+favicon_dark: ./assets/img/ai.png
+
+# Educations
+undergraduate_logo: ./assets/img/tsinghua-logo.png
+
+# Footnotes
+footnote: "2024 Yiming Liu"
+# footnote_link: https://github.com/leo1oel/leo1oel.github.io
+
+
+# The following files will be removed from the generated website.
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
